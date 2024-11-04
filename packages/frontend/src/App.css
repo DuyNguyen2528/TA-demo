@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  height: 400px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 4%;
+  border-color: beige;
+  
+}
+
+.login-window {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input {
+  height: 50px;
+  margin: 15px;
+  border: solid 1px;
+  border-radius: 8px;
+  
+}
+::placeholder {
+  text-align: center; 
+  font-size: 22px;
+  font: arial;
+}
